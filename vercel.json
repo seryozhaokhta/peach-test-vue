@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/peach-test/:path*", "destination": "/:path*" },
+    { "source": "/peach-test", "destination": "/" }
+  ]
+}
